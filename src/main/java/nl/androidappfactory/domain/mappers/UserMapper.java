@@ -1,7 +1,7 @@
-package nl.aaf.domain.mappers;
+package nl.androidappfactory.domain.mappers;
 
-import nl.aaf.domain.User;
-import nl.aaf.model.UserCommand;
+import nl.androidappfactory.domain.User;
+import nl.androidappfactory.model.UserCommand;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

@@ -1,4 +1,4 @@
-package nl.aaf.domain;
+package nl.androidappfactory.domain;
 
 import lombok.*;
 

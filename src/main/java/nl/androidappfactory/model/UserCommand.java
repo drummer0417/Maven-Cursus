@@ -1,4 +1,4 @@
-package nl.aaf.model;
+package nl.androidappfactory.model;
 
 import lombok.*;
 

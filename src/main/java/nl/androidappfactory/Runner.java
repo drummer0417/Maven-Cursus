@@ -1,12 +1,9 @@
-package nl.aaf;
+package nl.androidappfactory;
 
-import nl.aaf.domain.User;
-import nl.aaf.domain.mappers.UserMapper;
-import nl.aaf.domain.mappers.UserMapperImpl;
-import nl.aaf.model.UserCommand;
-import nl.androidappfactory.domain.Product;
-import nl.androidappfactory.model.ShippingAddress;
-import org.apache.commons.lang3.StringUtils;
+import nl.androidappfactory.domain.User;
+import nl.androidappfactory.domain.mappers.UserMapper;
+import nl.androidappfactory.domain.mappers.UserMapperImpl;
+import nl.androidappfactory.model.UserCommand;
 
 public class Runner {
 
