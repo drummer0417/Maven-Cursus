@@ -9,5 +9,4 @@ class GroovyHello {
 
         println(javaHelloWorld.getHello("Hans"));
     }
-
 }
