@@ -1,30 +1,28 @@
 package nl.androidappfactory;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class CarTest {
+class CarTest {
 
     Car car;
 
-    @Before
-    public void setup() {
+    @BeforeEach
+    void setUp() {
 
         car = new Car("Citroen", "C3");
-
     }
 
     @Test
-    public void getMake() {
+    void getMake() {
 
         assertEquals("Citroen", car.getMake());
     }
 
     @Test
-    public void getModel() {
+    void getModel() {
 
         assertEquals("C3", car.getModel());
     }
