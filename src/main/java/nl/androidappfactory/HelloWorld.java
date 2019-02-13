@@ -6,4 +6,9 @@ public class HelloWorld {
 
         System.out.println("Hallooooootjes wereldbol");
     }
+
+    public String sayHello() {
+
+        return "Hallooooootjes wereldbol";
+    }
 }
