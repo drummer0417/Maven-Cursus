@@ -11,4 +11,10 @@ public class GreeterJavaTest {
 
         assertTrue(true);
     }
+
+    @Test
+    public void sayHello2() {
+
+        assertFalse(false);
+    }
 }
