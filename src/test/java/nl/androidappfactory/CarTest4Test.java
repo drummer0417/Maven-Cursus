@@ -10,6 +10,6 @@ public class CarTest4Test {
     public void getMake() {
 
         Car car = new Car("Ford", "Focus");
-        assertEquals("Ford", car.getMake());
+        assertNotEquals("Fordje", car.getMake());
     }
 }
