@@ -17,4 +17,10 @@ class GreeterJUnit5Test {
 
         assertTrue("a".equals("a"));
     }
+
+    @Test
+    void dontSayHello() {
+
+        assertTrue("a".equals("a"));
+    }
 }
