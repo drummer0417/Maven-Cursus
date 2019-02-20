@@ -23,4 +23,10 @@ public class MathTest {
 
         assertEquals(15, Math.multiply(5, 3));
     }
+
+    @Test
+    public void divide() {
+
+        assertEquals(5.5, Math.divide(11, 2), 0.001);
+    }
 }
