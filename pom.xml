@@ -23,6 +23,9 @@
         <repository>
             <id>Maven-cursus-from-packagecloud</id>
             <url>https://packagecloud.io/drummer0417/release/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
@@ -30,7 +33,7 @@
         <dependency>
             <groupId>nl.androidappfactory</groupId>
             <artifactId>Maven-cursus</artifactId>
-            <version>3.0</version>
+            <version>4.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
