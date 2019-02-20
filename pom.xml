@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nl.aaf</groupId>
+    <groupId>nl.androidappfactory</groupId>
     <artifactId>Maven-cursus</artifactId>
     <version>${revision}</version>
 
     <packaging>jar</packaging>
 
     <properties>
-        <revision>1.0-SNAPSHOT</revision>
+        <revision>3.0</revision>
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -54,5 +54,24 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <extensions>
+            <extension>
+                <groupId>io.packagecloud.maven.wagon</groupId>
+                <artifactId>maven-packagecloud-wagon</artifactId>
+                <version>0.0.6</version>
+            </extension>
+        </extensions>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>packagecloud-release</id>
+            <url>packagecloud+https://packagecloud.io/drummer0417/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>packagecloud-snapshot</id>
+            <url>packagecloud+https://packagecloud.io/drummer0417/snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
