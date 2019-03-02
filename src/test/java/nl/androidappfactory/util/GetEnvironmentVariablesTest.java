@@ -12,7 +12,7 @@ public class GetEnvironmentVariablesTest {
     @Test
     public void getEnvVar() {
 
-        logger.debug("envVar:   ::::::::::::: " + GetEnvironmentVariables.getEnvVar());
+        logger.debug("envVar:  ::::::::::::::::: " + GetEnvironmentVariables.getEnvVar());
         assertTrue(true);
     }
 }
